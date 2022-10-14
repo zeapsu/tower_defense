@@ -42,4 +42,8 @@ fn spawn_basic_scene(
         transform: Transform::from_xyz(0.0, 0.5, 0.0),
         ..default()
     });
+    commands.insert_resource(AmbientLight {
+        color: Color::rgb(0.9, 0.9, 0.9),
+        brightness: 0.05,
+    });
 }
