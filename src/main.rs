@@ -128,3 +128,7 @@ fn bullet_despawn(
         }
     }
 }
+
+fn asset_loader() {
+    todo!()
+}
